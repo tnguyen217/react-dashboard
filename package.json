@@ -1,5 +1,5 @@
 {
-  "name": "react-starter-kit",
+  "name": "assessment2",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -38,5 +38,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "assessment 2 - Login, Dashboard, 404 pages routing",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tnguyen217/-assessment2-tnguyen217.git"
+  },
+  "author": "Tu Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tnguyen217/-assessment2-tnguyen217/issues"
+  },
+  "homepage": "https://github.com/tnguyen217/-assessment2-tnguyen217#readme"
 }
