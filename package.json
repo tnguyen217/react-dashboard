@@ -9,6 +9,7 @@
     "firebase": "^9.6.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-dropzone": "^12.0.4",
     "react-icons": "^4.3.1",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
@@ -40,15 +41,5 @@
     ]
   },
   "description": "assessment 2 - Login, Dashboard, 404 pages routing",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tnguyen217/-assessment2-tnguyen217.git"
-  },
-  "author": "Tu Nguyen",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tnguyen217/-assessment2-tnguyen217/issues"
-  },
-  "homepage": "https://github.com/tnguyen217/-assessment2-tnguyen217#readme"
+  "main": "index.js"
 }
