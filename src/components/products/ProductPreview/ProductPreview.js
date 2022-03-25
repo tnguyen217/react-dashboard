@@ -3,10 +3,11 @@ import React from 'react';
 import {ProductPreviewStyles, ProductImage, ProductName, ProductPrice, ProductDescription} from './styles'
 
 function ProductPreview ({children, productName, productPrice, productImage, productDescription, ...props})  {
+
   return (
         <ProductPreviewStyles  {...props}>
            <ProductImage>
-             <img src={productImage} alt='8k nike flex' width='320' height='184'/>
+             <img src={productImage.previewImage} alt='8k nike flex' width='320' height='184'/>
            </ProductImage>
 
            <ProductName>{productName}</ProductName>
