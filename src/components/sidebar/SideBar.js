@@ -1,9 +1,12 @@
 import React, { forwardRef } from 'react';
 
+import { MdDashboard } from 'react-icons/md'
 import { signOut } from 'firebase/auth';
 import { auth } from 'libs/firebase';
+
 import { Button } from 'ui/buttons'
-import {SidebarStyles} from './styles'
+import {SidebarStyles, SideBarHeader} from './styles'
+import ProductOptions from './ProductOptions';
 
 
 function SideBar($prop) {
@@ -14,9 +17,13 @@ function SideBar($prop) {
 
     return ( 
         <SidebarStyles>
-            <header>
-                <h1>Side Bar</h1>
-            </header>
+            <SideBarHeader>
+                <MdDashboard size="1.75rem"/>
+                <h2>Side Bar</h2>
+            </SideBarHeader>
+
+            <ProductOptions/>
+
             <div className="content">
                 <Button onClick={onLogOutRequest}>Log Out</Button>
             </div>

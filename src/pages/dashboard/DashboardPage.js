@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
+import { Outlet, useNavigate } from 'react-router-dom';
 
 import { onAuthStateChanged } from 'firebase/auth';
 import { auth } from 'libs/firebase';
-import { useNavigate } from 'react-router-dom';
 
 import { AppBar } from 'components/appbar';
 import { SideBar } from 'components/sidebar';
@@ -31,6 +31,7 @@ function DashBoardPage(props) {
                 <AppBar/>
                 <DashBoardStyles>
                     <SideBar/>
+                    <Outlet/>
                 </DashBoardStyles>
             </>
         )
